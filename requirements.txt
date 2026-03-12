@@ -1,0 +1,6 @@
+pandas
+requests
+pyarrow
+duckdb
+pytest
+apache-airflow==2.8.4
