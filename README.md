@@ -92,8 +92,8 @@ Airflow can be configured to trigger alerts when tasks fail.
 
 Typical alerting strategies include:
 
-#### Email Notifications
-#### Messaging Alerts (Slack / Teams)
+* Email Notifications
+* Messaging Alerts (Slack / Teams)
 
 
 ## Cloud Services Setup
@@ -115,6 +115,7 @@ Example AWS Deployment
 
 A production deployment on AWS could look like:
 
+```text
 Open Brewery API
         │
         ▼
@@ -122,9 +123,9 @@ AWS MWAA (Managed Airflow)
         │
         ▼
 S3 Data Lake
-  ├ Bronze
-  ├ Silver
-  └ Gold
+  ├── Bronze
+  ├── Silver
+  └── Gold
         │
         ▼
 Athena / DuckDB / BI Tools
